@@ -1,0 +1,10 @@
+.header {
+  background: var(--gray-700);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 8rem 0; */
+  padding: 7.2rem 0 8rem 0rem;
+}
+
