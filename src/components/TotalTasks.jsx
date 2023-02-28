@@ -8,22 +8,22 @@ export function TotalTasks({tasks}){
       <section className={styles.statsTask}>
         <div>
           <h2 className={styles.createdTasksText}>Tarefas criadas</h2>
-          <span>{totalTasks}</span>
+          <span>5</span>
         </div>
 
         <div>
           <h2 className={styles.concludedTasksText}>Concluídas</h2>
-          <span>2 de {totalTasks}</span>
+          <span>2 de 5</span>
         </div>
       </section>
 
       <section>
-        {tasks.map(task => {
+        {/* {tasks.map(task => {
           <TaskList 
             key={task.id}
             task={task}
           />
-        })}
+        })} */}
         
       </section>
     </header>
