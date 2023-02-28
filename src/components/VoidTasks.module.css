@@ -1,0 +1,14 @@
+.voidTasksGroup{
+  text-align: center;
+}
+
+.voidTasksGroup img{
+  margin-bottom: 1.6rem;
+}
+
+.voidTasksGroup p{
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 140%;
+  color: var(--gray-300);
+}

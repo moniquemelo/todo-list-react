@@ -1,8 +1,11 @@
 import { Header } from './components/Header'
 import { TaskList } from './components/TaskList'
+import { VoidTasks } from './components/VoidTasks'
+import { TotalTasks } from './components/TotalTasks'
 
 import './global.css'
 import styles from './App.module.css'
+
 
 const tasks = [
   {
@@ -19,13 +22,26 @@ const tasks = [
 ]
 
 export function App() {
+  const totalTasks = tasks.length
+  
   return (
     <div className="App">
       <Header/>
 
       <div className={styles.wrapper}>
-        <TaskList/>
-      </div>
+        <TotalTasks/> 
+        {/* <TaskList/>  */}
+        {/* <VoidTasks/> */}
+
+        {tasks.map(task => {
+            return (
+              <TaskList
+                key={task.id} 
+                title={task.title}
+              />
+            )
+          })}
+      </div>        
 
     </div>
   )

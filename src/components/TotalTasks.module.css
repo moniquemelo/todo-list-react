@@ -1,0 +1,33 @@
+.statsTask{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 9.1rem 0 2.4rem 0;
+}
+
+.statsTask > div{
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.statsTask span{
+  border-radius: 99.9rem;
+  padding: .2rem .8rem;
+  font-size: 1.2rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+}
+
+.createdTasksText {
+  font-size: 1.4rem;
+  color: var(--blue);
+  margin-right: .8rem;
+}
+
+.concludedTasksText{
+  font-size: 1.4rem;
+  color: var(--purple);
+  margin-right: .8rem;
+} 
