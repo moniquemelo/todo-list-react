@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-    <img alt="todolist" title="#todolist" src="./assets/banner.png" />
+    <img alt="todolist" title="#todolist" src="./src/assets/banner.png" />
 </h4>
 
 
